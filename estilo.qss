@@ -1,0 +1,240 @@
+/* =========================================================
+   ESTILO GERAL
+   ========================================================= */
+
+QWidget {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QListWidget#lista_pedidos_login {
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+
+/* =========================================================
+   TÍTULOS
+   ========================================================= */
+
+QLabel#titulo {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+QLabel#secao {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 8px 4px;
+}
+
+QLabel#categoria {
+    font-size: 14px;
+    font-weight: bold;
+    color: #777;
+    padding: 4px 2px;
+    margin-top: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+QLabel#total {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+QLabel#pedido {
+    font-size: 60px;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+    padding: 20px;
+}
+
+QLabel#indicador {
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    padding: 25px;
+    min-height: 100px;
+}
+
+
+/* =========================================================
+   BOTÕES
+   ========================================================= */
+
+QPushButton {
+    min-height: 38px;
+    padding: 6px 14px;
+}
+
+QPushButton:hover {
+    background-color: #eeeeee;
+}
+
+QPushButton:pressed {
+    background-color: #dddddd;
+}
+
+QPushButton#botao_grande {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+QPushButton#botao_grande:hover {
+    background-color: #e8e8e8;
+}
+
+QPushButton#botao_cliente {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+QPushButton#botao_cancelar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+QPushButton#botao_cancelar:hover {
+    background-color: #c0392b;
+}
+
+QPushButton#botao_cancelar:pressed {
+    background-color: #a93226;
+}
+
+
+/* =========================================================
+   CAMPOS
+   ========================================================= */
+
+QLineEdit,
+QComboBox,
+QSpinBox,
+QDoubleSpinBox {
+    min-height: 32px;
+    padding: 4px 8px;
+}
+
+
+/* =========================================================
+   GRUPOS DO CARDÁPIO
+   ========================================================= */
+
+QGroupBox {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+QGroupBox:hover {
+    border: 1px solid #999999;
+}
+
+
+/* =========================================================
+   SCROLL
+   ========================================================= */
+
+QScrollArea {
+    border: none;
+}
+
+
+/* =========================================================
+   TABELAS
+   ========================================================= */
+
+QTableWidget {
+    border: 1px solid #cccccc;
+    gridline-color: #dddddd;
+    selection-background-color: #dddddd;
+    selection-color: #000000;
+}
+
+QHeaderView::section {
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+/* =========================================================
+   BARRA DE ROLAGEM
+   ========================================================= */
+
+QScrollBar:vertical {
+    width: 12px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    min-height: 30px;
+    border-radius: 6px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    height: 12px;
+}
+
+QScrollBar::handle:horizontal {
+    min-width: 30px;
+    border-radius: 6px;
+}
+
+
+/* =========================================================
+   MODO TOTEM
+   ========================================================= */
+
+QLabel#titulo_totem {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+    padding: 30px;
+}
+
+QLabel#instrucao_totem {
+    font-size: 22px;
+    color: #555;
+    padding: 10px;
+}
+
+QLineEdit#campo_totem {
+    font-size: 28px;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+QLineEdit#campo_totem:focus {
+    border: 2px solid #4CAF50;
+}
+
+QPushButton#botao_totem {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+QPushButton#botao_totem:hover {
+    background-color: #45a049;
+}
